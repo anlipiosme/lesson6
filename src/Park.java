@@ -1,7 +1,7 @@
 public class Park {
     String name;
     String city;
-    public class Attraction {
+    public static class Attraction {
         String attractionName;
         String attractionTime;
         int AttractionPrice;

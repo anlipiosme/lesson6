@@ -12,6 +12,26 @@ public class Main {
             employee.printInfo();
         }
 
+        System.out.println(" ");
+
+        Park park1 = new Park();
+        park1.name = "Сочи Парк";
+        park1.city = "Адлер";
+
+        Park.Attraction attraction1 = new Park.Attraction();
+        attraction1.attractionName = "Вечный двигатель";
+        attraction1.attractionTime = "10.00-20.00";
+        attraction1.AttractionPrice = 400;
+        Park.Attraction attraction2 = new Park.Attraction();
+        attraction2.attractionName = "Змей горыныч";
+        attraction2.attractionTime = "10.00-20.00";
+        attraction2.AttractionPrice = 500;
+
+        System.out.println("Развлекательный центр "+park1.name+" в городе "+park1.city+" приглашает отдохнуть!");
+
+        System.out.println("Аттракцион "+attraction1.attractionName+", время работы: "+attraction1.attractionTime+". Цена одного билета: "+attraction1.AttractionPrice+" руб.");
+        System.out.println("Аттракцион "+attraction2.attractionName+", время работы: "+attraction2.attractionTime+". Цена одного билета: "+attraction2.AttractionPrice+" руб.");
+
     }
 
 }
